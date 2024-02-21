@@ -1,3 +1,92 @@
 body {
     padding-top: 5rem;
+    background: #1a1b1c;
+    overflow-x: hidden;
+    color: rgb(220, 217, 217);
+}
+
+main .container {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-pic {    
+    width: 188px;
+    border-radius: 200px;
+    padding: 15px;
+}
+
+#profile-head {  
+    color: white;
+    margin-top: -50px;
+    padding: 40px 40px 10px 40px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('/static/wakanda-stand.jpg');
+    background-size: 85%;
+}
+
+#profile-info{ 
+    color: white;   
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#profile-info p{ 
+    margin-bottom: 6px;
+}
+
+#profile-body {  
+    color: rgb(220, 217, 217);
+    overflow-x: hidden;
+    padding: 30px 40px 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio {    
+    width: 50vw;
+    text-align: center;
+}
+
+#info-tiles { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.tile {    
+    width: 100px;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background: #0b72ef;
+	font-weight: bold;
+	outline: inherit;
+	border: none;
+    border-radius: 2px;
+    padding: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+button:hover {
+    background: #005ed1;
+}
+
+footer {
+    color: white;
 }
